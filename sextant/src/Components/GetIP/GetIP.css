@@ -1,0 +1,15 @@
+.ip{
+    text-align: center;
+    min-width: 0;
+}
+.ipType{
+    letter-spacing: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0px;
+    font-weight: 200;
+    font-size: 16px;
+}
+.ipaddress{
+    letter-spacing: 1px;
+    font-family: "Tenkur";
+}

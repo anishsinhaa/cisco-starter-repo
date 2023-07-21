@@ -1,16 +1,16 @@
+import { render } from "@testing-library/react";
 import React from "react";
 import Card from "../Card/Card";
-import "./Cards.css"
+import "./Cards.css";
 
-const Cards = () => {
+const Cards = (props) => {
+  render();
   return (
     <div className="cards">
       <h2>HEADING</h2>
-      <div className="cards-cont"><Card />
-      <Card />
-      <Card />
-      <Card /></div>
-      
+      <div className="cards-cont">  
+        <Card />
+      </div>
     </div>
   );
 };

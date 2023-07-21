@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Card.css"
 
-const Card = () => {
+const Card = (props) => {
   return (
-    <div className='card'>Card</div>
+    <div className='card'><h3 className='cardHeading'>{props.heading}</h3>{props.children}</div>
   )
 }
 
