@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { w3cwebsocket as W3CWebSocket } from "websocket";
+import "./Pylon.css"
 
 const Pylon = () => {
   const client = new W3CWebSocket("ws://localhost:55455");
@@ -14,8 +15,8 @@ const Pylon = () => {
     getLatency();
   }, []);
   return (
-    <div>
-      <span className="PylonConnector">{latency}</span>
+    <div className="latency">
+      <span className="Pylon">{latency}</span>
     </div>
   );
 };
