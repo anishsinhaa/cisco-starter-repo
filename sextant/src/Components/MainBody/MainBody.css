@@ -1,4 +1,6 @@
 .mainBody{
     height:max-content;
     padding: 20px;
+    display: flex;
+    gap: 20px;
 }

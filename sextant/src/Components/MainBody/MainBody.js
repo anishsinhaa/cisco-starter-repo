@@ -8,7 +8,7 @@ import "./MainBody.css";
 const MainBody = () => {
   return (
     <div >
-        <div className="header"><Banner /></div>
+        <div className="header"><Banner title="SEXTANT" /></div>
         <div className="mainBody"><Card heading="IP ADDRESS"><GetIP type="v4"/><GetIP type="v6"/></Card><Card heading="LATENCY"><Pylon/></Card></div>
       
     </div>
